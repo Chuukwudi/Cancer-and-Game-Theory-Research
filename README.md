@@ -2,7 +2,7 @@
 
 ## Example Datasets
 To get started, you need to download example datasets from URLs as below and put them in a directory called "data". this
-"data" and the "code" directory in this repo should be in this same folder of this repo "Cancer-and-Game-Theory-Research"
+"data" should be in this repo but isn't due to github size restrictions.
 
 [Train data](http://dataxlab.org/Cox-PASNet/train.csv) 
 
