@@ -11,7 +11,7 @@ else:
 
 dtype = torch.FloatTensor
 ''' Net Settings'''
-In_Nodes = 130 ###number of genes
+In_Nodes = 130 ###number of reactions
 Hidden_Nodes = 100 ###number of hidden nodes
 Out_Nodes = 30 ###number of hidden nodes in the last hidden layer
 ''' Initialize '''

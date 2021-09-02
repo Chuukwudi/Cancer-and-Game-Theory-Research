@@ -5,7 +5,7 @@ class Cox_PASNet(nn.Module):
 	def __init__(self, In_Nodes, Hidden_Nodes, Out_Nodes):
 		super(Cox_PASNet, self).__init__()
 		self.tanh = nn.Tanh()
-		###gene layer --> Hidden layer
+		###reaction layer --> Hidden layer
 		self.sc1 = nn.Linear(In_Nodes, Hidden_Nodes)
 		###hidden layer --> hidden layer 2
 		self.sc3 = nn.Linear(Hidden_Nodes, Out_Nodes, bias=False)
